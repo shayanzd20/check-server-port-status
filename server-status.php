@@ -5,8 +5,8 @@ ini_set('display_errors', 1);
 require_once __DIR__ . "/Config/Terminal.php";
 require_once __DIR__ . "/Config/telegram.class.php";
 
-//$botToken = "149191450:AAFTysFstHCI0r1Zw_8_XCygZQO1AwcvMhY";
-$botToken = "479852551:AAEwNnpPqBm6YhClLyBvMh2n5smB_A-vkcs";
+// must put telegram key
+$botToken = "";
 $webSite = "https://api.telegram.org/bot" . $botToken;
 $Telegram = new TelegramBot($botToken);
 
